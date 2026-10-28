@@ -1,0 +1,140 @@
+{
+  "admin": {
+    "email": "bellagioadmin",
+    "salt": "4ef2983bdf894ff0e396d62a167c1fb6",
+    "passwordHash": "591cdaac955b20f3bc6ade2966f53dec7abea220395c80e4fbe4fce4cab54673c91064c63760400084465c78c078f46781aa346da11fd193ff6347ecd5575e78",
+    "createdAt": "2026-10-27T12:06:23.509Z"
+  },
+  "orders": [
+    {
+      "id": "ord-101",
+      "orderNumber": "FS-ORD-84920",
+      "items": [
+        {
+          "id": "it-1",
+          "menuItem": {
+            "id": "dish-1",
+            "name": "Truffle Alfredo Pasta",
+            "price": 520,
+            "category": "Pasta",
+            "image": "https://images.unsplash.com/photo-1645112411341-6c4fd023714a?auto=format&fit=crop&w=800&q=80"
+          },
+          "quantity": 2,
+          "specialInstructions": "Extra parmesan on the side please"
+        },
+        {
+          "id": "it-2",
+          "menuItem": {
+            "id": "dish-6",
+            "name": "Chocolate Lava Cake",
+            "price": 350,
+            "category": "Desserts",
+            "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80"
+          },
+          "quantity": 1
+        }
+      ],
+      "orderType": "dine-in",
+      "tableNumber": "Table 4 (Window Booth)",
+      "customerInfo": {
+        "name": "Rahul Mehta",
+        "email": "rahul.mehta@example.com",
+        "phone": "+91 98765 12345"
+      },
+      "paymentMethod": "stripe-card",
+      "paymentStatus": "paid",
+      "subtotal": 1390,
+      "tax": 222,
+      "deliveryFee": 0,
+      "discount": 139,
+      "total": 1473,
+      "status": "cooking",
+      "createdAt": "2026-10-27T11:41:23.509Z",
+      "estimatedTime": "20 mins"
+    },
+    {
+      "id": "ord-102",
+      "orderNumber": "FS-ORD-84921",
+      "items": [
+        {
+          "id": "it-3",
+          "menuItem": {
+            "id": "dish-2",
+            "name": "Grilled Salmon",
+            "price": 790,
+            "category": "Steaks",
+            "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=800&q=80"
+          },
+          "quantity": 1
+        },
+        {
+          "id": "it-4",
+          "menuItem": {
+            "id": "dish-3",
+            "name": "Classic Margherita",
+            "price": 480,
+            "category": "Pizza",
+            "image": "https://images.unsplash.com/photo-1604382355076-af4b0eb60143?auto=format&fit=crop&w=800&q=80"
+          },
+          "quantity": 1
+        }
+      ],
+      "orderType": "delivery",
+      "deliveryAddress": {
+        "street": "Apartment 4B, Silver Heights",
+        "area": "VIP Road, Zirakpur",
+        "city": "Punjab",
+        "notes": "Call upon arrival at reception gate"
+      },
+      "customerInfo": {
+        "name": "Priya Sharma",
+        "email": "priya.sharma@example.com",
+        "phone": "+91 98765 67890"
+      },
+      "paymentMethod": "cash-on-delivery",
+      "paymentStatus": "pending",
+      "subtotal": 1270,
+      "tax": 203,
+      "deliveryFee": 60,
+      "discount": 0,
+      "total": 1533,
+      "status": "preparing",
+      "createdAt": "2026-10-27T11:56:23.509Z",
+      "estimatedTime": "35 mins"
+    }
+  ],
+  "reservations": [
+    {
+      "id": "res-201",
+      "referenceNumber": "FS-RES-7821",
+      "date": "2026-10-28",
+      "timeSlot": "7:30 PM",
+      "guestsCount": 2,
+      "seatingPreference": "Romantic Window Booth",
+      "occasion": "Romantic Dinners",
+      "guestName": "Rahul Mehta",
+      "guestEmail": "rahul.mehta@example.com",
+      "guestPhone": "+91 98765 12345",
+      "specialRequests": "Candlelight setup with rose petals for anniversary",
+      "status": "confirmed",
+      "createdAt": "2026-10-27T12:06:23.509Z"
+    },
+    {
+      "id": "res-202",
+      "referenceNumber": "FS-RES-7822",
+      "date": "2026-10-28",
+      "timeSlot": "8:00 PM",
+      "guestsCount": 6,
+      "seatingPreference": "Indoor Main Dining",
+      "occasion": "Family Gatherings",
+      "guestName": "Amit Kapoor",
+      "guestEmail": "amit.kapoor@example.com",
+      "guestPhone": "+91 98765 44332",
+      "specialRequests": "High chair for toddler please",
+      "status": "confirmed",
+      "createdAt": "2026-10-27T12:06:23.509Z"
+    }
+  ],
+  "menu": [],
+  "reviews": []
+}

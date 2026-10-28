@@ -1,0 +1,6 @@
+{
+  "name": "SEVEN STAR Continental Kitchen",
+  "description": "Luxury continental dining experience, artisan menu, instant table reservations, food ordering, and private dining events.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
